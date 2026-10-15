@@ -1,0 +1,17 @@
+program
+  declList
+    decl
+      funDecl
+        funcTypeName
+          typeSpecifier,void
+          identifier,main
+        funBody
+          statementList
+            condStmt
+              integer,1
+              condStmt
+                integer,2
+                integer,3
+                integer,4
+SYMBOL TABLE:
+242: void :main()

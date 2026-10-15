@@ -1,0 +1,22 @@
+program
+  declList
+    decl
+      funDecl
+        funcTypeName
+          typeSpecifier,void
+          identifier,main
+        funBody
+          statementList
+            funcCallExpr
+              identifier,main
+            funcCallExpr
+              identifier,main
+              argList
+                integer,1
+            funcCallExpr
+              identifier,main
+              argList
+                integer,2
+                integer,3
+SYMBOL TABLE:
+242: void :main()

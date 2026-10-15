@@ -1,0 +1,35 @@
+program
+  declList
+    decl
+      funDecl
+        funcTypeName
+          typeSpecifier,void
+          identifier,main
+        funBody
+          statementList
+            expression
+              integer,1
+              relop,<
+              integer,3
+            expression
+              integer,1
+              relop,<=
+              integer,3
+            expression
+              integer,1
+              relop,==
+              integer,3
+            expression
+              integer,1
+              relop,>=
+              integer,3
+            expression
+              integer,1
+              relop,>
+              integer,3
+            expression
+              integer,1
+              relop,!=
+              integer,3
+SYMBOL TABLE:
+242: void :main()

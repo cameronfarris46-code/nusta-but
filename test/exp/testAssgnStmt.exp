@@ -1,0 +1,29 @@
+program
+  declList
+    decl
+      funDecl
+        funcTypeName
+          typeSpecifier,void
+          identifier,main
+        funBody
+          statementList
+            varDecl
+              typeSpecifier,int
+              identifier,i
+            varDecl
+              typeSpecifier,int
+              identifier,arr
+              integer,16
+            assignStmt
+              var
+                identifier,i
+              integer,12
+            assignStmt
+              var
+                identifier,arr
+                integer,0
+              integer,13
+SYMBOL TABLE:
+242: void :main()
+506: int main:arr[]
+678: int main:i

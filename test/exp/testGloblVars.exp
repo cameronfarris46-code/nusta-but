@@ -1,0 +1,24 @@
+program
+  declList
+    decl
+      varDecl
+        typeSpecifier,int
+        identifier,i
+    decl
+      varDecl
+        typeSpecifier,char
+        identifier,c
+    decl
+      varDecl
+        typeSpecifier,void
+        identifier,v
+    decl
+      varDecl
+        typeSpecifier,int
+        identifier,arr
+        integer,16
+SYMBOL TABLE:
+506: int :arr[]
+672: char :c
+678: int :i
+691: void :v

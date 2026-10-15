@@ -1,0 +1,14 @@
+program
+  declList
+    decl
+      funDecl
+        funcTypeName
+          typeSpecifier,void
+          identifier,main
+        funBody
+          statementList
+            returnStmt
+            returnStmt
+              integer,12
+SYMBOL TABLE:
+242: void :main()
